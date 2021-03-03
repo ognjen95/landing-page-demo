@@ -19,6 +19,22 @@ h3 {
   margin: 2rem 0;
   color: #282828;
 }
+.about-us-span {
+  position: relative;
+}
+.about-us-span:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  bottom: -4px;
+  color: red;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  background: lightseagreen;
+}
+
 section {
   margin: 1rem 0;
   padding: 0 10%;
