@@ -50,9 +50,13 @@ section {
   text-decoration: none;
 }
 #logo {
-  color: lightseagreen;
+  color: #fafafa;
   font-size: 1.2rem;
   font-weight: 900;
+}
+#logo span {
+  font-size: 2rem;
+  color: lightseagreen;
 }
 #menu-btn {
   display: none;
@@ -372,6 +376,9 @@ button:focus {
 @media screen and (max-width: 900px) {
   .about-us-items {
     grid-template-columns: auto auto;
+  }
+  #logo {
+    color: lightseagreen;
   }
 }
 
